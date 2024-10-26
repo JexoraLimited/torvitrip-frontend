@@ -1,0 +1,10 @@
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: calc(100% + 1px);
+  background: linear-gradient(180deg, rgba(26, 43, 61, 0) 0%, #1a2b3d 100%);
+}

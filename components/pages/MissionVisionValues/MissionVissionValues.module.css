@@ -1,0 +1,19 @@
+.textStyle {
+  font-family: Inter, sans-serif !important;
+}
+
+.termsBanner {
+  background-image: url("../../../assets/images/about/about-banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: flex-end;
+  height: 350px;
+}
+
+@media only screen and (max-width: 768px) {
+  .termsBanner {
+    height: 120px;
+  }
+}

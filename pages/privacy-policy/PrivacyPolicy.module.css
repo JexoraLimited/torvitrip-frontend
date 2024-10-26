@@ -1,0 +1,11 @@
+.textStyle {
+  font-family: Inter, sans-serif !important;
+}
+
+.termsBanner {
+  background-image: url("https://cdn.sharetrip.net/sharetrip_net/public/images/b2bhomeMap.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

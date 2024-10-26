@@ -1,0 +1,36 @@
+.stoppagePoints {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.stoppageDetailsTooltip {
+  position: absolute;
+  top: 20px;
+  width: 200px;
+  left: calc(50% - 100px);
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  cursor: auto;
+  box-shadow: var(--box-shadow-1);
+  opacity: 0;
+  visibility: hidden;
+}
+
+.stoppageInfoContainer {
+  cursor: pointer;
+}
+
+.stoppageInfoContainer:hover .stoppageDetailsTooltip {
+  opacity: 1;
+  visibility: visible;
+}

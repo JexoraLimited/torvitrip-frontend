@@ -1,0 +1,259 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 47.4% 11.2%;
+
+    --heading: 253 13% 30%;
+
+    --muted: #f1f5f9;
+    --muted-foreground: #64748b;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 47.4% 11.2%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 47.4% 11.2%;
+    /* --primary: #1882ff;
+    --primary-foreground: #1882ff;
+    --primary-light: #e6f1ff; */
+    --primary: 212 100% 55%; /* #1a85ff */
+    --primary-foreground: 192 72% 43%; /* #1a85ff */
+
+    --secondary: 204 57% 32%; /* #235b80 */
+    --secondary-foreground: 204 57% 32%; /* #235b80 */
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --ring: 215 20.2% 65.1%;
+
+    --radius: 0.5rem;
+
+    /* extra for only css */
+    --gray: #e2e8f0;
+    --gray-foreground: #d3d3d3;
+    --gray-dark: #c3c3c3;
+    --gray-text: #9ba6b1;
+    --gray-black: #3e4957;
+    --gray-background: #f5f7fa;
+    --box-shadow-1: 0px 6px 28px 0px #00000029;
+    --box-shadow-2: 0 2px 37px 0 #0000001a;
+    --box-shadow-logo-blue: 0 0 10px #1882ff;
+    --box-shadow-logo-pink: 0 0 10px #da3187;
+    --linear-gradient-primary: linear-gradient(
+      90deg,
+      #00a5d4,
+      #84cdea,
+      #00a5d4
+    );
+    --linear-gradient-secondary: linear-gradient(
+      90deg,
+      #d53789,
+      #cca0c1,
+      #da3187
+    );
+  }
+}
+
+@layer base {
+  /* * {
+    @apply border-border;
+  } */
+  body {
+    /* @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+body,
+html {
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  @apply font-nunito-sans;
+}
+
+@nprogress svg {
+  display: none !important;
+}
+
+::selection {
+  @apply bg-secondary/90 text-white;
+}
+
+/* container */
+.main-container {
+  max-width: 1608px;
+  margin: 0 auto;
+}
+
+.shadow-1 {
+  box-shadow: var(--box-shadow-1);
+}
+
+.shadow-2 {
+  box-shadow: var(--box-shadow-2);
+}
+
+/* responsive */
+/* changing the container size requires changes in the flight search airlines container in mobile */
+@media only screen and (max-width: 768px) {
+  .section {
+    margin: 3rem 0 1.5rem 0;
+  }
+  .section-title {
+    font-size: 24px;
+  }
+  .section-description {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-container {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .main-container {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .main-container {
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .main-container {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+}
+
+/* // multirangeslider  */
+.horizontal-slider {
+  width: 100%;
+  max-width: 500px;
+  height: 20px;
+  /* border-radius: 5px; */
+}
+
+.horizontal-slider .example-track {
+  top: 20px;
+  height: 8px;
+}
+
+.example-track.example-track-0 {
+  background: grey;
+  border-radius: 5px;
+}
+
+.example-track.example-track-1 {
+  background: var(--logo-blue);
+}
+
+.example-track.example-track-2 {
+  background: grey;
+  border-radius: 5px;
+}
+
+.horizontal-slider .example-thumb {
+  top: 1px;
+  width: 50px;
+  height: 48px;
+  line-height: 45px;
+  border-radius: 50%;
+  font-size: 0.9em;
+  text-align: center;
+  background-color: #0075ff;
+  color: white;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+/* no scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* gray scrollbar */
+.grayScrollBar::-webkit-scrollbar {
+  width: 7px;
+}
+/* Track */
+.grayScrollBar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.grayScrollBar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.grayScrollBar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* no scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.noNumberArrow[type="number"]::-webkit-inner-spin-button,
+.noNumberArrow[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.vignette-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 46.88%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: hsl(var(--secondary));
+  border-radius: 8px;
+}

@@ -1,0 +1,79 @@
+.sliderHeaderContainer {
+  background: white;
+  box-shadow: var(--box-shadow-1);
+}
+.sliderHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+  background: white;
+}
+
+.pagination {
+  height: 35px;
+  width: 100%;
+  box-shadow: var(--box-shadow-1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.pagination > div {
+  height: 12px;
+  width: 12px;
+  border-radius: 50%;
+  background: lightgray;
+  cursor: pointer;
+}
+.pagination > div.active {
+  background: var(--logo-blue);
+}
+.sliderButton {
+  padding: 10px 44px;
+  border-radius: 10px;
+  border: 2px solid hsl(var(--primary));
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  background: hsl(var(--primary));
+  color: white;
+}
+.navigation {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+.navigationIcon {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  color: hsl(var(--primary));
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 99999;
+}
+.navigationIcon.inactive {
+  background: lightgray;
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .sliderHeader {
+    flex-direction: column;
+  }
+  .sliderButton {
+    padding: 5px 16px;
+    font-size: 12px;
+  }
+  .navigation {
+    gap: 12px;
+  }
+  .navigationIcon {
+    height: 15px;
+    width: 15px;
+  }
+}

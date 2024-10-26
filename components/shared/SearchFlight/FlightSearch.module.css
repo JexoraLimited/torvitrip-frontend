@@ -1,0 +1,64 @@
+.datePickerSelected:not(.datePickerRangeMiddle) {
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+  color: white !important;
+  background: hsl(var(--primary)) !important;
+}
+
+.datePickerSelected:not(.datePickerRangeMiddle):hover {
+  color: white !important;
+  background: hsl(var(--primary)) !important;
+}
+
+.datePickerRangeStart:not(.datePickerOutside) {
+  background: hsl(var(--primary)) !important;
+  color: white !important;
+  border-top-right-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}
+
+.datePickerRangeEnd:not(.datePickerOutside) {
+  background: hsl(var(--primary)) !important;
+  color: white !important;
+  border-top-left-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+}
+
+.datePickerRangeMiddle:not(.datePickerOutside) {
+  background: hsl(var(--primary) / 0.2) !important;
+  border-radius: 0 !important;
+  color: black !important;
+}
+
+.datePickerToday:not(.datePickerRangeEnd):not(.datePickerRangeStart):not(
+    .datePickerRangeMiddle
+  ):not(.datePickerOutside) {
+  color: hsl(var(--primary)) !important;
+  font-weight: bold;
+}
+.datePickerRow > td:first-child button:not(.datePickerOutside) {
+  border-top-left-radius: 6px !important;
+  border-bottom-left-radius: 6px !important;
+}
+
+.datePickerRow > td:last-child button:not(.datePickerOutside) {
+  border-top-right-radius: 6px !important;
+  border-bottom-right-radius: 6px !important;
+}
+
+.datePickerOutside {
+  opacity: 0 !important;
+  cursor: default !important;
+}
+
+.datePickerDisabled {
+  color: var(--muted-foreground) !important;
+  cursor: default !important;
+}
+
+.datePickerMonths:not(.datePickerMonthWhenHorizontal)
+  > div:last-child:not(:first-child) {
+  border-left: 1px solid #e2e8f0;
+}

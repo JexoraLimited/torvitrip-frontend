@@ -1,0 +1,8 @@
+[+] When modifying search from one way to round trip. Date will be auto selected to incremental 1 week
+[+] Multi city default city selection problem
+[+] Close modify search when clicked on modify
+[+] Clear filter
+[+] Expand and collapse filter
+[.] Airline count and price
+[+] Baggage count and price
+[+] Refund info is inside fareDetailsBySegment -> amenities

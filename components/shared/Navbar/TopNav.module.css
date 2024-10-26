@@ -1,0 +1,9 @@
+.languageChange {
+  z-index: 9;
+}
+.languageChange {
+  background: #f7f7f7;
+}
+.languageChange .react-select__option {
+  z-index: 9;
+}

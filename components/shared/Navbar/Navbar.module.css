@@ -1,0 +1,51 @@
+.menuShadow {
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 35, 44, 0.8);
+  opacity: 0;
+  transition: opacity 0.4s ease-in-out;
+  visibility: hidden;
+}
+.menuActive.menuShadow {
+  opacity: 1;
+  visibility: visible;
+}
+.navLink {
+  transition: all 0.3s ease-in-out;
+}
+.navLink:active {
+  background: lightskyblue;
+}
+/* .callButton {
+  background: 0 0;
+  border: 1px solid #fff4cf;
+  color: #222;
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 7.5px 22px;
+}
+.callButtonContainer {
+  background-image: linear-gradient(90deg, #ffe17a, #f5bd00);
+  background-size: 150%;
+  box-shadow: 0 7px 25px -17px #222;
+  margin-left: 28px;
+  padding: 2px;
+  position: relative;
+  transition: background 0.25s ease;
+  display: inline-block;
+}
+.callButton::after,
+.callButton::before {
+  box-sizing: border-box;
+}
+
+@keyframes identifier {
+  from {
+  }
+  to {
+  }
+} */

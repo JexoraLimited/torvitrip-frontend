@@ -1,0 +1,60 @@
+.navigationIcon {
+  height: 28px;
+  width: 28px;
+  border-radius: 50%;
+  color: white;
+  background: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease-in-out;
+  z-index: 9;
+  top: calc((250px / 2) - 14px);
+}
+.navigationIcon:disabled {
+  opacity: 0.5;
+}
+.paginationContainer {
+  position: absolute;
+  top: calc(250px - 28px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.pagination {
+  display: inline-flex;
+  background: rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  padding: 6px;
+  gap: 5px;
+  z-index: 9;
+}
+.paginationItem {
+  width: 6px;
+  height: 6px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+.paginationItem.active {
+  background: white;
+}
+
+@media only screen and (max-width: 768px) {
+  .sliderHeader {
+    flex-direction: column;
+  }
+  .sliderButton {
+    padding: 5px 16px;
+    font-size: 12px;
+  }
+  .navigation {
+    gap: 12px;
+  }
+  .navigationIcon {
+    top: calc((225px / 2) - 14px);
+  }
+  .paginationContainer {
+    top: calc(225px - 28px);
+  }
+}

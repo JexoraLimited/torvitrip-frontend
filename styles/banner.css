@@ -1,0 +1,28 @@
+.searchBtn {
+  background-color: hsl(var(--primary)) !important;
+  padding: 10px 0;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  width: 220px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+/* for datepicker */
+.react-datepicker__header {
+  border-radius: 0 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  .searchBtn {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 18px;
+  }
+}

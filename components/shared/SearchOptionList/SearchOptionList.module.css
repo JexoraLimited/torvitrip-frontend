@@ -1,0 +1,24 @@
+.searchScrollBar::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.searchScrollBar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+.searchScrollBar::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+.searchScrollBar::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* day picker */
+.searchInputDayPicker .rdp-month {
+  border-right: 1px solid #e2e8f0 !important;
+}
