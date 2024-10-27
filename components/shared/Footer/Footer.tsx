@@ -14,7 +14,7 @@ const Footer = () => {
           </h3>
           <div className={styles.socialIconsContainer}>
             {socialLinks.map((s, index: number) => (
-              <a key={index} href={s.href}>
+              <a key={index}>
                 <Image src={s.img} alt="" />
               </a>
             ))}

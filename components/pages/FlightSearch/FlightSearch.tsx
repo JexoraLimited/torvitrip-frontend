@@ -314,7 +314,7 @@ const FlightSearch = () => {
         </>
       )}
       {status === "loading" && (
-        <div className="h-screen w-full flex items-center justify-center">
+        <div className="h-[calc(100vh-70px)] w-full flex items-center justify-center">
           <Head>
             <title>Search Flights - OTA</title>
           </Head>
