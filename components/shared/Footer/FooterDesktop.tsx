@@ -71,14 +71,15 @@ const FooterDesktop = () => {
                 <MdLocationOn fontSize={20} />
               </span>
               <a rel="noreferrer">
-                Office: Hajigonj, Fatullah, <br /> Narayanganj 1420
+                18/7 Giridhara A/A, Dhaka South City Corporation,
+                <br /> Matuail, Kadamtali, Dhaka - 1362
               </a>
             </li>
             <li className={`${styles.quickLinksFlex}`}>
               <span>
                 <IoIosCall fontSize={20} />
               </span>
-              <a href="tel:+8809613660157">Hotline: +88 09613-660 157</a>
+              <a href="tel:+8809611311629">Hotline: +88 09611-311 629</a>
             </li>
             <li className={`${styles.quickLinksFlex}`}>
               <span>
