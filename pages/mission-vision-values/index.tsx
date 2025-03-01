@@ -6,7 +6,7 @@ const index = () => {
   return (
     <Layout>
       <Head>
-        <title>OTA Mission, Vision and Values</title>
+        <title>TorviTrip Mission, Vision and Values</title>
         <meta
           name="description"
           content="Empowering global travel solutions for an enriched world"

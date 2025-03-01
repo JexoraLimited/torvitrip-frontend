@@ -9,7 +9,7 @@ const index = () => {
         <title>Discover OTA</title>
         <meta
           name="description"
-          content="Learn about OTA - Your Ultimate Travel Companion"
+          content="Learn about TorviTrip - Your Ultimate Travel Companion"
         />
         <meta name="keywords" content="OTA, About, Company" />
       </Head>

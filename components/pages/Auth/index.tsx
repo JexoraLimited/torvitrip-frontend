@@ -16,12 +16,14 @@ const AuthPages = () => {
   return (
     <Layout>
       <Head>
-        <title>{type === "signin" ? "Log in to OTA" : "Join OTA Now"}</title>
+        <title>
+          {type === "signin" ? "Log in to OTA" : "Join TorviTrip Now"}
+        </title>
         <meta
           name="description"
           content={
             type === "signin"
-              ? "Log in to access your OTA account"
+              ? "Log in to access your TorviTrip account"
               : "Register for exclusive offers and travel updates"
           }
         />

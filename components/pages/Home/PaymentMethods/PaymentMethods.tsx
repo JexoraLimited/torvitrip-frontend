@@ -13,7 +13,7 @@ const PaymentMethods: FC<IPaymentMethods> = (props) => {
       <div className="main-container">
         <SectionHeading
           title="Payment Methods"
-          description="OTA allows multiple payment methods that allows you to pay without any hassle. Enjoy our services with hassle free payments."
+          description="TorviTrip allows multiple payment methods that allows you to pay without any hassle. Enjoy our services with hassle free payments."
           className="mb-6"
         />
         <div className="flex w-full gap-10 flex-col md:flex-row items-center justify-between">

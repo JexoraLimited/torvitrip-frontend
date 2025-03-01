@@ -1,19 +1,19 @@
 export const privacyData = [
   {
     id: "s1",
-    title: "How Does OTA Make Use of Mobile Devices",
+    title: "How Does TorviTrip Make Use of Mobile Devices",
     description:
       "We provide free mobile application which also involve the collection and processing of personal data in a similar manner to our website. However, our mobile applications offer the additional advantage of utilizing the location services present on your mobile device(s).",
   },
   {
     id: "s2",
-    title: "How Does OTA Make Use of Social Media",
+    title: "How Does TorviTrip Make Use of Social Media",
     description:
       "OTA’s services may involve the integration of social media in various ways, which may result in the collection of some of your personal data or the receipt of some of your information by the social media provider.",
   },
   {
     id: "s3",
-    title: "What Log Data does OTA Collect",
+    title: "What Log Data does TorviTrip Collect",
     description:
       "When you use our Service, in case of an error in the app we collect data and information on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.",
   },
@@ -32,7 +32,7 @@ export const securityRetention = [
       {
         id: 2,
         title:
-          "We will keep your personal data as long as necessary to provide our services, comply with laws, resolve disputes, and conduct our business, including detecting and preventing fraud and other illegal activities. All personal data about you as a OTA customer is covered by this Privacy Statement.",
+          "We will keep your personal data as long as necessary to provide our services, comply with laws, resolve disputes, and conduct our business, including detecting and preventing fraud and other illegal activities. All personal data about you as a TorviTrip customer is covered by this Privacy Statement.",
       },
       {
         id: 3,
@@ -53,7 +53,7 @@ export const securityRetention = [
       {
         id: 2,
         title:
-          "OTA does not sell or trade upon any of the above-foregoing information without the consent of the user or customer. OTA does not store any credit/debit card details and all card-related information is stored at the respective bank after the selection of the payment gateway.",
+          "TorviTrip does not sell or trade upon any of the above-foregoing information without the consent of the user or customer. TorviTrip does not store any credit/debit card details and all card-related information is stored at the respective bank after the selection of the payment gateway.",
       },
       {
         id: 3,
@@ -68,7 +68,7 @@ export const securityRetention = [
       {
         id: 5,
         title:
-          "Information like phone number, email address, and billing address may be used for promotional purposes unless the customer/user has unsubscribed from such services. If you choose not to share this information, you can still visit the OTA website, but you may be unable to access certain options, offers, and services.",
+          "Information like phone number, email address, and billing address may be used for promotional purposes unless the customer/user has unsubscribed from such services. If you choose not to share this information, you can still visit the TorviTrip website, but you may be unable to access certain options, offers, and services.",
       },
     ],
   },

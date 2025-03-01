@@ -26,7 +26,7 @@ const Terms = () => {
           <strong>Auto Refund & Auto Void: Terms & Conditions</strong>
           <br />
           {
-            "OTA customers can now claim Refund and Void automatically from App/Web"
+            "TorviTrip customers can now claim Refund and Void automatically from App/Web"
           }
         </p>
         <ul className="list-disc pl-5 pb-3">
@@ -85,10 +85,10 @@ const Terms = () => {
           }
         </p>
         <p className="pb-3">
-          <strong>Deleting your OTA Account: </strong>
+          <strong>Deleting your TorviTrip Account: </strong>
           <br />
           {
-            "Users can delete their accounts at any time through the Profile>Manage Data>Delete Account in the OTA app. If you submit a request to delete your account, it will be completely deleted within 72 hours."
+            "Users can delete their accounts at any time through the Profile>Manage Data>Delete Account in the TorviTrip app. If you submit a request to delete your account, it will be completely deleted within 72 hours."
           }
         </p>
         <p className="pb-3">
@@ -122,11 +122,13 @@ const Terms = () => {
         </div>
         <p className="pb-2">
           {
-            "The refund amount will be disbursed after deducting the OTA service fee. Please note that it takes a minimum of 10-12 bank working weeks to complete the refund process. This is not applicable for non-refundable tickets."
+            "The refund amount will be disbursed after deducting the TorviTrip service fee. Please note that it takes a minimum of 10-12 bank working weeks to complete the refund process. This is not applicable for non-refundable tickets."
           }
         </p>
         <p className="pb-2">
-          {"* OTA convenience fee is non-refundable for online purchases."}
+          {
+            "* TorviTrip convenience fee is non-refundable for online purchases."
+          }
         </p>
         <p className="pb-2">
           {
@@ -153,7 +155,7 @@ const Terms = () => {
         </p>
         <p className="pb-2">
           {
-            "* For cancellation by Airline, OTA will not charge any additional fees.  For voluntary cancellation charges are applicable and given below (effective from 11th January 2023)"
+            "* For cancellation by Airline, TorviTrip will not charge any additional fees.  For voluntary cancellation charges are applicable and given below (effective from 11th January 2023)"
           }
         </p>
 
@@ -234,12 +236,12 @@ const Terms = () => {
 
         <p className="pb-2">
           {
-            "* For cancellations and refunds, we always follow the airline's refund policy. The airline solely holds the right to change any policy. OTA has no control over the airline's policy."
+            "* For cancellations and refunds, we always follow the airline's refund policy. The airline solely holds the right to change any policy. TorviTrip has no control over the airline's policy."
           }
         </p>
         <p className="pb-2">
           {
-            "* For any refund/cancellation/date change-related queries kindly email us at flight@OTA.net. "
+            "* For any refund/cancellation/date change-related queries kindly email us at flight@torvitrip.net. "
           }
         </p>
         <p className="pb-2">
@@ -263,11 +265,11 @@ const Terms = () => {
             Please upload the accurate & proper Passport and Visa copy.
           </li>
           <li className="pb-2">
-            When purchasing ticket from OTA, it is mandatory to upload copy of
-            your passport and visa. Failure to provide the required documents
-            will result in cancellation of your booking by J Travel. OTA
-            reserves the right to cancel any booking if the necessary documents
-            are not received within the stipulated time frame.
+            When purchasing ticket from torvitrip, it is mandatory to upload
+            copy of your passport and visa. Failure to provide the required
+            documents will result in cancellation of your booking by J Travel.
+            torvitrip reserves the right to cancel any booking if the necessary
+            documents are not received within the stipulated time frame.
           </li>
           <li className="pb-2">
             Please provide the Surname and Given Name accurately as per your
@@ -282,19 +284,19 @@ const Terms = () => {
             Changeable/Non-changeable before any instant ticket purchase.
           </li>
           <li className="pb-2">
-            OTA will not be liable for any improper/Fake document submission by
-            the agent or the passenger which may cause deportation or offload by
-            the concerned airline or the arrival airports.
+            TorviTrip will not be liable for any improper/Fake document
+            submission by the agent or the passenger which may cause deportation
+            or offload by the concerned airline or the arrival airports.
           </li>
           <li className="pb-2">
-            After instant ticket purchase, OTA will not be liable for any
+            After instant ticket purchase, TorviTrip will not be liable for any
             passenger mistake regarding Name/Documents/Fare policy/Airline
             policy/Country restriction.
           </li>
           <li className="pb-2">
-            Passport validity should be over 6 months from the travel date. OTA
-            will not be liable if pax are unable to travel due to Passport
-            validity issue.
+            Passport validity should be over 6 months from the travel date.
+            torvitrip will not be liable if pax are unable to travel due to
+            Passport validity issue.
           </li>
           <li className="pb-2">
             In case of Long Pax name, Use short form of Given Name and full form
@@ -308,9 +310,9 @@ const Terms = () => {
           </li>
         </ul>
         <p className="pb-3">
-          OTA does not issue one-way tickets for Air India and Saudi Airlines
-          (labour tickets). We also do not issue any labour tickets to Malaysia
-          & Middle Eastern Countries.
+          TorviTrip does not issue one-way tickets for Air India and Saudi
+          Airlines (labour tickets). We also do not issue any labour tickets to
+          Malaysia & Middle Eastern Countries.
         </p>
         <p className="pb-3">
           After payment, your e-ticket will get issued and be sent via email
@@ -321,12 +323,12 @@ const Terms = () => {
           <p className="pb-2">
             <strong>Hotel: </strong>
             {
-              "OTA provides various types of accommodation services. This includes hotels, hostels, serviced apartments, B&Bs, rooms for rent, cottages, etc. By making a booking through OTA, you accept the following hotel's terms and conditions."
+              "TorviTrip provides various types of accommodation services. This includes hotels, hostels, serviced apartments, B&Bs, rooms for rent, cottages, etc. By making a booking through torvitrip, you accept the following hotel's terms and conditions."
             }
           </p>
           <p className="pb-2">
             {
-              "The information that you see on our website is the information provided by our suppliers and hoteliers. The hotelier can change the rent of their hotel anytime. Although we try to verify each and every piece of information, we cannot be held responsible if any misinformation is given by the suppliers or hoteliers. If you find rooms in a hotel on another website and not OTA, that means we do not have access to the other rooms as hoteliers usually use more than one platform to rent their property."
+              "The information that you see on our website is the information provided by our suppliers and hoteliers. The hotelier can change the rent of their hotel anytime. Although we try to verify each and every piece of information, we cannot be held responsible if any misinformation is given by the suppliers or hoteliers. If you find rooms in a hotel on another website and not torvitrip, that means we do not have access to the other rooms as hoteliers usually use more than one platform to rent their property."
             }
           </p>
           <p className="pb-2">
@@ -336,12 +338,12 @@ const Terms = () => {
           </p>
           <p className="pb-2">
             {
-              "OTA reserves the right to cancel a confirmed or booked hotel reservation, for any illegal use of our platform. The illegal use of our platform includes reselling and providing misinformation."
+              "TorviTrip reserves the right to cancel a confirmed or booked hotel reservation, for any illegal use of our platform. The illegal use of our platform includes reselling and providing misinformation."
             }
           </p>
           <p className="pb-2">
             {
-              "For any refund/cancellation/date change related queries kindly email us at vacation@OTA.net"
+              "For any refund/cancellation/date change related queries kindly email us at vacation@torvitrip.net"
             }
           </p>
           <p className="pb-2">
@@ -380,16 +382,16 @@ const Terms = () => {
           </p>
           <p className="pb-2">
             For any refund/cancellation/date change related queries kindly email
-            us at vacation@OTA.net
+            us at vacation@torvitrip.net
           </p>
         </div>
         <div className="pb-3">
           <strong>Refund Policy - </strong>
           <div className="pb-2">
-            15 days prior to the Travel Date - 50 % of Total Holiday Cost.
+            15 days prior to the Travel Date - 50 % of Ttorvitripl Holiday Cost.
           </div>
           <div className="pb-2">
-            10 days prior to the Travel Date - 75 % of Total Holiday Cost.
+            10 days prior to the Travel Date - 75 % of Ttorvitripl Holiday Cost.
           </div>
           <div className="pb-2">
             05 days prior to the Travel Date - 100% of Holiday Cost will be
@@ -398,13 +400,13 @@ const Terms = () => {
         </div>
         <div className="pb-3">
           <p className="pb-2">
-            <strong>Visa: </strong>OTA process visa for all popular destinations
-            worldwide. For places where the submission has to be by the
-            individuals, we only process the papers for the client. The client
-            shall have to face embassy interviews by themselves if needed. We
-            also do not provide any assurance of getting a visa, as that depends
-            solely on the embassy. In order to have a higher chance of getting a
-            visa, clients are suggested to-
+            <strong>Visa: </strong>TorviTrip process visa for all popular
+            destinations worldwide. For places where the submission has to be by
+            the individuals, we only process the papers for the client. The
+            client shall have to face embassy interviews by themselves if
+            needed. We also do not provide any assurance of getting a visa, as
+            that depends solely on the embassy. In order to have a higher chance
+            of getting a visa, clients are suggested to-
           </p>
           <ul className="list-decimal pl-5">
             <li className="pb-2">Provide accurate documents to us.</li>
@@ -419,9 +421,9 @@ const Terms = () => {
         </div>
         <div className="pb-3">
           <div className="pb-2">
-            <strong>Visa fee & Service Charges: </strong>OTA Service charge and
-            Processing fee BDT 4,500 in total for UK, USA, Canada, Australia,
-            New Zealand and Schengen visa processing.{" "}
+            <strong>Visa fee & Service Charges: </strong>TorviTrip Service
+            charge and Processing fee BDT 4,500 in ttorvitripl for UK, USA,
+            Canada, Australia, New Zealand and Schengen visa processing.{" "}
           </div>
           <p className="pb-2">
             Visa fees and our service charges are strictly not refundable even
@@ -446,65 +448,68 @@ const Terms = () => {
             </li>
           </ul>
           <p className="pb-2">
-            If OTA finds any suspicious, or fraudulent booking, booked under a
-            false name, we reserve the right to cancel the booking immediately
-            and block the email, phone number that is associated with that
-            particular account from our website. OTA reserves the right to take
-            legal action if needed, in case of any fraudulent activity. If you
-            think your account has been blocked by any mistake, we request you
-            to contact our customer service with proper verifiable documents
+            If TorviTrip finds any suspicious, or fraudulent booking, booked
+            under a false name, we reserve the right to cancel the booking
+            immediately and block the email, phone number that is associated
+            with that particular account from our website. TorviTrip reserves
+            the right to take legal action if needed, in case of any fraudulent
+            activity. If you think your account has been blocked by any mistake,
+            we request you to contact our customer service with proper
+            verifiable documents
           </p>
         </div>
         <div className="pb-3">
           <p className="pb-2">
-            <strong>Privacy: </strong>OTA honours your privacy. Please check our
-            current Privacy Policy to understand how we use and process your
-            personal data.
+            <strong>Privacy: </strong>TorviTrip honours your privacy. Please
+            check our current Privacy Policy to understand how we use and
+            process your personal data.
           </p>
         </div>
         <div className="pb-3">
           <p className="pb-2">
-            <strong>Right to Refuse: </strong>OTA reserve the right to refuse
-            user for a service, if:
+            <strong>Right to Refuse: </strong>TorviTrip reserve the right to
+            refuse user for a service, if:
           </p>
           <ul className="list-decimal pl-5">
             <li className="pb-2">
               The user breaches any of the terms and conditions.
             </li>
             <li className="pb-2">
-              OTA is unable to verify any information provided by the user.{" "}
+              TorviTrip is unable to verify any information provided by the
+              user.{" "}
             </li>
             <li className="pb-2">
               {
-                "OTA believes that the user's actions may violate any third party rights or breach any other applicable law."
+                "TorviTrip believes that the user's actions may violate any third party rights or breach any other applicable law."
               }
             </li>
           </ul>
           <p className="pb-2">
-            If OTA finds any suspicious, or fraudulent booking, booked under a
-            false name, we reserve the right to cancel the booking immediately
-            and block the email, phone number that is associated with that
-            particular account from our website. OTA reserves the right to take
-            legal action if needed, in case of any fraudulent activity. If you
-            think your account has been blocked by any mistake, we request you
-            to contact our customer service with proper verifiable documents
+            If TorviTrip finds any suspicious, or fraudulent booking, booked
+            under a false name, we reserve the right to cancel the booking
+            immediately and block the email, phone number that is associated
+            with that particular account from our website. TorviTrip reserves
+            the right to take legal action if needed, in case of any fraudulent
+            activity. If you think your account has been blocked by any mistake,
+            we request you to contact our customer service with proper
+            verifiable documents
           </p>
         </div>
         <div className="pb-3">
           <p className="pb-2">
-            <strong>Right to Cancellation: </strong>If OTA has reasons to
-            believe that the user-provided any incorrect information, OTA in its
-            sole and absolute discretion reserves the right to cancel the
+            <strong>Right to Cancellation: </strong>If TorviTrip has reasons to
+            believe that the user-provided any incorrect information, TorviTrip
+            in its sole and absolute discretion reserves the right to cancel the
             booking and take any further legal action against the user. In such
-            cases, OTA shall not be responsible for any monetary damage caused
-            to the user.
+            cases, TorviTrip shall not be responsible for any monetary damage
+            caused to the user.
           </p>
         </div>
         <div className="pb-3">
           <p className="pb-2">
             <strong>Modification of these Terms and Conditions: </strong>
-            OTA reserves the right to change the terms and conditions, at any
-            time without prior notice. The user will respond to regularly
+            TorviTrip reserves the right to change the terms and conditions, at
+            any time without prior notice. The user will respond to regularly
             checking the terms and conditions from this page.
           </p>
         </div>
@@ -514,7 +519,8 @@ const Terms = () => {
             and website you acknowledge and agree to have read, understood, and
             agreed to the terms and conditions (including the privacy
             statement). Disagreement to any of the terms and conditions stated
-            above will not be considered after booking any service from OTA.
+            above will not be considered after booking any service from
+            torvitrip.
           </p>
         </div>
       </div>

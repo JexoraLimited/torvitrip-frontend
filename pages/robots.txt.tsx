@@ -6,7 +6,7 @@ const Site = () => null;
 export const getServerSideProps: GetServerSideProps = async (ctx) => {
   const hostname = ctx.req.headers.host;
   let robots = "";
-  if (hostname === "www.OTA.com" || hostname === "OTA.com") {
+  if (hostname === "www.torvitrip.com" || hostname === "torvitrip.com") {
     robots = `User-agent: *\nAllow: /\nSitemap: ${Keys.SITE_URL}/sitemap.xml\nDisallow: /flight-search/\nDisallow: /under-construction`;
   } else {
     robots = `User-agent: *\nUser-agent: AdsBot-Google\nDisallow: /`;

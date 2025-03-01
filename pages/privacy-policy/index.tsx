@@ -12,12 +12,12 @@ const PrivacyPolicy = () => {
   return (
     <Layout>
       <Head>
-        <title>OTA Privacy Policy</title>
+        <title>TorviTrip Privacy Policy</title>
         <meta
           name="description"
           content="Understand OTA's privacy practices and policies"
         />
-        <meta name="keywords" content="OTA Privacy, Policies" />
+        <meta name="keywords" content="TorviTrip Privacy, Policies" />
       </Head>
       <div className="main-container">
         <div className={`${styles.termsBanner}`}>
@@ -27,11 +27,11 @@ const PrivacyPolicy = () => {
         </div>
         <div className="mb-[10rem] mt-6 bg-white z-10 mx-4 md:mx-0">
           <p className="text-base font-normal leading-6 mb-[10px]">
-            This Privacy Policy is prepared by OTA Ltd. and whose registered
-            address is JCX Business Tower, 3rd & 6th Floor, Plot - 1136/A, Block
-            - I, Bashundhara R/A,Dhaka 1229, Bangladesh (“We”) are committed to
-            protecting and preserving the privacy of our visitors when visiting
-            our site or communicating electronically with us.
+            This Privacy Policy is prepared by TorviTrip Ltd. and whose
+            registered address is JCX Business Tower, 3rd & 6th Floor, Plot -
+            1136/A, Block - I, Bashundhara R/A,Dhaka 1229, Bangladesh (“We”) are
+            committed to protecting and preserving the privacy of our visitors
+            when visiting our site or communicating electronically with us.
           </p>
           <p className="text-base font-normal leading-6 mb-[10px]">
             This policy sets out how we process any personal data we collect
@@ -105,7 +105,7 @@ const PrivacyPolicy = () => {
             <br />
             <br />
             <h4 className="text-xl font-bold leading-[25px]">
-              How Does OTA Use Personal Data Belonging to Children
+              How Does TorviTrip Use Personal Data Belonging to Children
             </h4>
             <p className="text-base font-normal leading-6 mb-[10px]">
               This service is not for use by anyone under the age of 13. We do
@@ -143,18 +143,18 @@ const PrivacyPolicy = () => {
           </div>
           <div>
             <h4 className="text-xl font-bold leading-[25px]">
-              How Does OTA Share Your Data with Third Parties
+              How Does TorviTrip Share Your Data with Third Parties
             </h4>
             <p className="text-base font-normal leading-6 mb-[10px]">
-              OTA is services involve various parties for different reasons and
-              in different ways. The primary reason we share your data is to
-              provide the Trip Provider with the necessary information to
-              complete your Trip Reservation.
+              TorviTrip is services involve various parties for different
+              reasons and in different ways. The primary reason we share your
+              data is to provide the Trip Provider with the necessary
+              information to complete your Trip Reservation.
             </p>
             <p className="text-base font-normal leading-6 mb-[10px]">
               In addition, we engage other parties to provide you with OTA
               Travel services, such as financial institutions, and advertisers
-              of the OTA corporate group. We may also share your data with
+              of the TorviTrip corporate group. We may also share your data with
               governmental or other authorities if required by law in some
               instances.
             </p>
@@ -179,7 +179,7 @@ const PrivacyPolicy = () => {
               protection laws and regulations. Any subject access request must
               be made in writing to{" "}
               <Link className="text-[#1882ff]" href="/">
-                ask@OTA.net
+                ask@torvitrip.net
               </Link>
               . We will provide your personal data to you within the statutory
               time frames. To enable us to trace any of your personal data that
@@ -191,22 +191,22 @@ const PrivacyPolicy = () => {
               there are a few ways you can do so:
             </p>
             <p className="text-base font-normal leading-6 mb-[10px]">
-              OTA keeps user data for the duration necessary to fulfill the
-              purposes outlined previously. The duration for which we keep user
-              data is based on the type of data, user category, and the reasons
-              why we gathered the data.
+              TorviTrip keeps user data for the duration necessary to fulfill
+              the purposes outlined previously. The duration for which we keep
+              user data is based on the type of data, user category, and the
+              reasons why we gathered the data.
             </p>
             <p className="text-base font-normal leading-6 mb-[10px]">
               Legal and regulatory requirements, safety, security, fraud
               prevention, and account-related concerns, such as outstanding
               credit or unresolved claims or disputes, may also determine the
-              duration for which OTA retains user data.
+              duration for which TorviTrip retains user data.
             </p>
             <p className="text-base font-normal leading-6 mb-[10px]">
               Users can delete their accounts at any time through the Profile
-              Manage Data Delete Account in the OTA app. Upon a deletion
-              request, OTA deletes the user s account and data, unless they are
-              required to be retained due to legal, regulatory, or
+              Manage Data Delete Account in the TorviTrip app. Upon a deletion
+              request, TorviTrip deletes the user s account and data, unless
+              they are required to be retained due to legal, regulatory, or
               account-related issues. In case of deleting data collected from
               social media platforms such as facebook, users have to delete data
               through their facebook account. For more details, user’s can visit
@@ -220,7 +220,7 @@ const PrivacyPolicy = () => {
               However, anyone concerned about the data can directly contact us
               at:{" "}
               <Link className="text-[#1882ff]" href="/">
-                ask@OTA.net
+                ask@torvitrip.net
               </Link>
             </p>
             <br />
@@ -256,7 +256,7 @@ const PrivacyPolicy = () => {
               Questions, comments, and requests regarding this privacy policy
               are welcomed and should be addressed to{" "}
               <Link className="text-[#1882ff]" href="/">
-                ask@OTA.net.
+                ask@torvitrip.net.
               </Link>
             </p>
           </div>

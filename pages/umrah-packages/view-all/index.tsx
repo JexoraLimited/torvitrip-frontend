@@ -11,7 +11,7 @@ const AllUmrahPackagesPage = () => {
         </title>
         <meta
           name="description"
-          content="Discover cheap Umrah packages in 2024! Book family-friendly and low-cost Umrah tours with OTA for an unforgettable spiritual journey."
+          content="Discover cheap Umrah packages in 2024! Book family-friendly and low-cost Umrah tours with TorviTrip for an unforgettable spiritual journey."
         />
         <meta
           name="keywords"

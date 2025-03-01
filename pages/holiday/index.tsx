@@ -8,7 +8,7 @@ const TourPage = () => {
         <title>Holiday Packages | Cheap Vacation Deals - OTA</title>
         <meta
           name="description"
-          content="Discover the best deals on cheap holiday packages and vacation deals for 2024. Plan your affordable and amazing holiday with OTA."
+          content="Discover the best deals on cheap holiday packages and vacation deals for 2024. Plan your affordable and amazing holiday with TorviTrip."
         />
         <meta
           name="keywords"

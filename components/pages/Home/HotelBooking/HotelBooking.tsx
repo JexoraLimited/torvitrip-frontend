@@ -13,7 +13,7 @@ const HotelBooking: React.FC<IHotelBooking> = (props) => {
       <div className={"main-container"}>
         {/* <SectionHeading
           title="Featured Hotels"
-          description="Discover our handpicked selection of top-rated hotels worldwide with OTA. Enjoy exceptional stays in Asia, Europe, America, Australia, and beyond."
+          description="Discover our handpicked selection of top-rated hotels worldwide with TorviTrip. Enjoy exceptional stays in Asia, Europe, America, Australia, and beyond."
         /> */}
         {/* <div className="mb-12 mt-5 w-full grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-3">
           {hotelBookingData2.map((hotel) => {

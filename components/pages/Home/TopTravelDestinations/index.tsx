@@ -88,7 +88,7 @@ const TopTravelDestinations: FC<ITopTravelDestinations> = (props) => {
       <div className="main-container">
         <SectionHeading
           title="Top Travel Destinations"
-          description={`Expand your horizons! Explore our curated selection of top destinations across Asia, Europe, America, Australia, and beyond with OTA.`}
+          description={`Expand your horizons! Explore our curated selection of top destinations across Asia, Europe, America, Australia, and beyond with TorviTrip.`}
           className="mb-6"
         />
         <div className="max-w-full overflow-x-hidden">

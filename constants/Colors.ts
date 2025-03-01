@@ -1,5 +1,5 @@
 const Colors = {
-  primary: "#1882ff",
+  primary: "#074f82",
   primaryForeground: "#ffffff",
   primaryOptions: {
     primary100: "rgba(26, 133, 255, 0.1)",
@@ -12,7 +12,7 @@ const Colors = {
     primary800: "rgba(26, 133, 255, 0.8)",
     primary900: "rgba(26, 133, 255, 0.9)",
   },
-  secondary: "#235b80",
+  secondary: "#0b303c",
   secondaryForeground: "#ffffff",
   secondaryOptions: {
     secondary100: "rgba(35, 91, 128, 0.1)",

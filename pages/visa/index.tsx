@@ -11,7 +11,7 @@ const VisaPage = () => {
         </title>
         <meta
           name="description"
-          content="Looking for a visa? Explore visa solutions worldwide with OTA. From Canadian visas to Schengen visas, we've got you covered."
+          content="Looking for a visa? Explore visa solutions worldwide with TorviTrip. From Canadian visas to Schengen visas, we've got you covered."
         />
         <meta
           name="keywords"

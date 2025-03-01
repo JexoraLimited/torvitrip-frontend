@@ -33,7 +33,7 @@ const Banner: React.FC<ISearchNew> = (props) => {
         <div className="w-full flex flex-col items-center mb-[20px]">
           <div className="w-fit">
             <h2 className="text-xl font-semibold lg:text-4xl text-white">
-              Welcome to <i className="font-bold">OTA</i>
+              Welcome to <i className="font-bold">TorviTrip</i>
             </h2>
             {/* <h4 className="text-[12px] lg:text-[16px] mt-[6px] text-right font-bold text-white hidden md:block">
               Dream, Explore, Discover

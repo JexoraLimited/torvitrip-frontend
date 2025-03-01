@@ -131,7 +131,7 @@ const HotelAuthPages = () => {
         <title>Log in to OTA</title>
         <meta
           name="description"
-          content={"Log in to access your OTA account"}
+          content={"Log in to access your TorviTrip account"}
         />
         <meta name="keywords" content={"Log in, Account"} />
       </Head>
@@ -308,7 +308,7 @@ const HotelAuthPages = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 mt-5">
           <ServiceCard
             title="Optimize your listing"
-            description="Enhance your hotel's visibility and booking rates on OTA platforms by optimizing listings with high-quality photos, detailed descriptions, and competitive pricing. Ensure your property stands out to attract more guests."
+            description="Enhance your hotel's visibility and booking rates on TorviTrip platforms by optimizing listings with high-quality photos, detailed descriptions, and competitive pricing. Ensure your property stands out to attract more guests."
             img={optimizeListing.src}
             link="/list-property/auth"
             maxLength={500}

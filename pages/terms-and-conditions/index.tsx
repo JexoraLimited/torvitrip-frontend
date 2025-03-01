@@ -6,7 +6,7 @@ const index = () => {
   return (
     <Layout>
       <Head>
-        <title>OTA Terms and Conditions</title>
+        <title>TorviTrip Terms and Conditions</title>
         <meta
           name="description"
           content="Review OTA's terms and conditions before using"

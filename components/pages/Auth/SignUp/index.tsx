@@ -392,7 +392,7 @@ const SignUpPage: React.FC<ISignUpForm> = ({}) => {
                 >
                   <span className="-ml-1 select-none font-inter text-xs md:leading-[28px]">
                     I accept the{" "}
-                    <span className="text-[#EF4F4E]">OTA Term</span> &{" "}
+                    <span className="text-[#EF4F4E]">TorviTrip Term</span> &{" "}
                     <span className="text-[#EF4F4E]">Privacy Policy</span>{" "}
                   </span>
                 </label>

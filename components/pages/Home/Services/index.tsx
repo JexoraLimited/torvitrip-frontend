@@ -15,7 +15,7 @@ const Services: FC<IServices> = (props) => {
       <div className="main-container">
         <SectionHeading
           title="Our Services"
-          description={`OTA offers flight booking, hotel reservation, holiday
+          description={`TorviTrip offers flight booking, hotel reservation, holiday
         packages,
         umrah packages, tourist visa, student visa and work visa`}
           className="mb-6"
@@ -24,7 +24,7 @@ const Services: FC<IServices> = (props) => {
           <ServiceCard
             img={flight.src}
             title="Flight Booking"
-            description="Find air ticket prices in Bangladesh. Book cheap airline tickets online with OTA - your go-to flight booking website!"
+            description="Find air ticket prices in Bangladesh. Book cheap airline tickets online with TorviTrip - your go-to flight booking website!"
             link="/flight"
             image_alt="flight booking"
           />
@@ -38,14 +38,14 @@ const Services: FC<IServices> = (props) => {
           <ServiceCard
             img={holiday.src}
             title="Holiday Packages"
-            description="Discover the best deals on cheap holiday packages and vacation deals for 2024. Plan your affordable and amazing holiday with OTA."
+            description="Discover the best deals on cheap holiday packages and vacation deals for 2024. Plan your affordable and amazing holiday with TorviTrip."
             link="/holiday"
             image_alt="holiday packages"
           />
           <ServiceCard
             img={umrah.src}
             title="Umrah Packages"
-            description="Discover cheap Umrah packages in 2024! Book family-friendly and low-cost Umrah tours with OTA for an unforgettable spiritual journey."
+            description="Discover cheap Umrah packages in 2024! Book family-friendly and low-cost Umrah tours with TorviTrip for an unforgettable spiritual journey."
             link="/umrah-packages/view-all"
             image_alt="work visa"
           />

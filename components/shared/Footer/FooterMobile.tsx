@@ -32,7 +32,7 @@ const FooterMobile = () => {
               }}
             />
             <p className="section-description" style={{ color: "white" }}>
-              OTA is a one-stop shop for all your travel needs.{" "}
+              TorviTrip is a one-stop shop for all your travel needs.{" "}
               <span className="font-bold text-primary">Since 2023</span>, We
               offer a wide range of travel services, including flights, hotels,
               holidays, and Visa Processing. We are committed to providing our
@@ -42,7 +42,7 @@ const FooterMobile = () => {
         </SwiperSlide>
         <SwiperSlide className="px-[20px] mb-3">
           <div>
-            <h3 className="text-3xl mb-3">About OTA</h3>
+            <h3 className="text-3xl mb-3">About TorviTrip</h3>
             <ul className={styles.quickLinks}>
               <li>
                 <Link href={"/about"}>About us</Link>
@@ -97,13 +97,13 @@ const FooterMobile = () => {
                 <span>
                   <IoIosCall fontSize={20} />
                 </span>
-                <a href="tel:+8809611311629">Hotline: +88 09611-311 629</a>
+                <a href="tel:+8809638807682">Hotline: +8809638 807 682</a>
               </li>
               <li className={`${styles.quickLinksFlex}`}>
                 <span>
                   <MdEmail fontSize={18} />
                 </span>
-                <a href="mailto:OTAltd@gmail.com">OTAltd@gmail.com</a>
+                <a href="mailto:torvitrip@gmail.com">torvitrip@gmail.com</a>
               </li>
             </ul>
           </div>

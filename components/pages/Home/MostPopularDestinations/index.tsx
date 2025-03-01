@@ -88,7 +88,7 @@ const MostPopularDestinations: FC<IMostPopularDestinations> = (props) => {
       <div className="main-container">
         <SectionHeading
           title="Most popular destinations"
-          description={`Explore the most popular destinations around the globe with OTA. Asia, Europe, America, Australia, and more await your exploration.`}
+          description={`Explore the most popular destinations around the globe with TorviTrip. Asia, Europe, America, Australia, and more await your exploration.`}
           className="mb-6"
         />
         <div className="max-w-full overflow-x-hidden">

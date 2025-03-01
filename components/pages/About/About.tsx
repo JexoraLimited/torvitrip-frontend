@@ -12,13 +12,13 @@ const About = () => {
           Who are we?
         </h2>
         <p className="leading-6 mb-[14px]">
-          OTA is a full-service travel agency committed to providing travelers
-          with comprehensive and personalized travel services. With millions of
-          people traveling both domestically and internationally, we recognize
-          the high demand for reliable travel services providers. As a result,
-          we aim to offer a range of services to cater to the diverse needs of
-          travelers, including flight bookings, hotel reservations, tour
-          packages, transportation services, travel insurance, destination
+          TorviTrip is a full-service travel agency committed to providing
+          travelers with comprehensive and personalized travel services. With
+          millions of people traveling both domestically and internationally, we
+          recognize the high demand for reliable travel services providers. As a
+          result, we aim to offer a range of services to cater to the diverse
+          needs of travelers, including flight bookings, hotel reservations,
+          tour packages, transportation services, travel insurance, destination
           guides, sustainable travel options, group travel, travel
           consultations, visa processing and verification, and corporate travel
           management.
@@ -33,8 +33,8 @@ const About = () => {
           flights to their return home.
           <br />
           <br />
-          <span className="text-2xl font-bold block">Services:</span> OTA Travel
-          Services offers a wide range of travel services to cater to the
+          <span className="text-2xl font-bold block">Services:</span> TorviTrip
+          Travel Services offers a wide range of travel services to cater to the
           diverse needs of travelers. Our services include:
           <br />
           <br />
@@ -119,8 +119,8 @@ const About = () => {
           Services generates revenue through commissions earned on flight
           bookings, hotel reservations, and tour packages. We also charge a fee
           for transportation services such as car rentals and airport transfers.
-          About OTA: OTA is a leading travel services provider committed to
-          offering personalized and comprehensive travel services to our
+          About OTA: TorviTrip is a leading travel services provider committed
+          to offering personalized and comprehensive travel services to our
           clients. Our team of travel experts is dedicated to tailoring our
           services to cater to the diverse needs of our clients.
           <br />
@@ -202,7 +202,7 @@ const About = () => {
           services, we will work to resolve the issue or offer a refund.
           <br />
           <br />
-          In conclusion, OTA is a full-service travel agency that offers
+          In conclusion, TorviTrip is a full-service travel agency that offers
           personalized and comprehensive travel services to clients worldwide.
           Our team of experienced travel experts is passionate about travel and
           dedicated to providing exceptional customer service. We believe in

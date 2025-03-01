@@ -12,7 +12,7 @@ const WorkVisaViewAllPage = () => {
         </title>
         <meta
           name="description"
-          content="Explore efficient work visa services across continents - Europe, America, Australia, Asia, and the Middle East with OTA."
+          content="Explore efficient work visa services across continents - Europe, America, Australia, Asia, and the Middle East with TorviTrip."
         />
         <meta
           name="keywords"
