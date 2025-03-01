@@ -16,7 +16,7 @@ export default function Home() {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
-        <meta property="og:title" content="OTA" />
+        <meta property="og:title" content="TorviTrip" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.torvitrip.com" />
         <meta property="og:image" content="/web_banner.png" />
