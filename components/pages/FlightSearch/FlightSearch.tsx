@@ -7,8 +7,8 @@ import useDeviceIndicator from "@/hooks/useDeviceIndicator";
 import { FlightTypes } from "@/types/common";
 import { cn, formatCurrency } from "@/utils/common";
 import { motion } from "framer-motion";
-import Lottie from "lottie-react";
 import moment from "moment";
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import Image from "next/image";
 import { useRouter } from "next/router";
@@ -18,6 +18,8 @@ import { BsCaretLeftFill, BsCaretRightFill } from "react-icons/bs";
 import { nunitoSans } from "../../../fonts/google";
 import FlightSearchLeft from "./FlightSearchLeft";
 import FlightSearchRight from "./FlightSearchRight";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const FlightSearch = () => {
   const { isPhone } = useDeviceIndicator();
