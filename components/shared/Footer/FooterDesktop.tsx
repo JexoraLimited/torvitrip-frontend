@@ -71,8 +71,9 @@ const FooterDesktop = () => {
                 <MdLocationOn fontSize={20} />
               </span>
               <a rel="noreferrer">
-                18/7 Giridhara A/A, Dhaka South City Corporation,
-                <br /> Matuail, Kadamtali, Dhaka - 1362
+                18/7 Giridhara, Matuail,
+                <br />
+                Kadamtali, Dhaka - 1362
               </a>
             </li>
             <li className={`${styles.quickLinksFlex}`}>

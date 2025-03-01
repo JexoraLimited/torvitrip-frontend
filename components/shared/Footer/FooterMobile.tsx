@@ -1,4 +1,4 @@
-import logo from "@/assets/images/logo/logo.png";
+import logo from "@/assets/images/logo/logo-bottom.png";
 import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
@@ -89,8 +89,7 @@ const FooterMobile = () => {
                   <MdLocationOn fontSize={20} />
                 </span>
                 <a rel="noreferrer">
-                  18/7 Giridhara A/A, Dhaka South City Corporation, Matuail,
-                  Kadamtali, Dhaka - 1362
+                  18/7 Giridhara, Matuail, Kadamtali, Dhaka - 1362
                 </a>
               </li>
               <li className={`${styles.quickLinksFlex}`}>
