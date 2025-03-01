@@ -1,7 +1,7 @@
 import forgotPasswordLottiePrimary from "@/assets/lotties/forgot-password-primary.json";
 import forgotPasswordLottieSecondary from "@/assets/lotties/forgot-password-secondary.json";
 import Layout from "@/layouts/Layout";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useState } from "react";
@@ -10,6 +10,8 @@ import StepFour from "./StepFour";
 import StepOne from "./StepOne";
 import StepThree from "./StepThree";
 import StepTwo from "./StepTwo";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const ForgotPasswordPageComponent = () => {
   const router = useRouter();

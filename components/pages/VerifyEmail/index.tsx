@@ -5,13 +5,15 @@ import { useVerifyCode } from "@/hooks/api/auth";
 import Layout from "@/layouts/Layout";
 import { cn } from "@/utils/common";
 import { decryptString } from "@/utils/encrypt";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
 import Head from "next/head";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { toast } from "react-hot-toast";
 import { FaArrowLeft } from "react-icons/fa6";
 import OTPInput from "react-otp-input";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const VerifyEmailPageComponent = () => {
   const router = useRouter();
