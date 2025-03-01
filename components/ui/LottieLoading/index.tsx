@@ -1,7 +1,10 @@
 import loading1 from "@/assets/lotties/logo.json";
 import { cn } from "@/utils/common";
-import Lottie, { LottieComponentProps } from "lottie-react";
+import { LottieComponentProps } from "lottie-react";
+import dynamic from "next/dynamic";
 import React, { HTMLAttributes } from "react";
+
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 interface ILottieLoading extends HTMLAttributes<HTMLDivElement> {
   lottieProps?: LottieComponentProps;
   animationClassName?: string;
