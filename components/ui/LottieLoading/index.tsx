@@ -1,4 +1,4 @@
-import loading1 from "@/assets/lotties/logo.json";
+import loading1 from "@/assets/lotties/loading.json";
 import { cn } from "@/utils/common";
 import { LottieComponentProps } from "lottie-react";
 import dynamic from "next/dynamic";
